@@ -1,0 +1,47 @@
+/*	font-family: 'PT Serif', serif; */
+body{
+	height: 99999px;
+	font-family: 'PT Serif', serif;
+}
+.topbar{
+	
+	font-size: 17px;
+}
+.phone{
+	
+	color: black;
+	margin-top: 50px;
+	float: right;
+	font-family: 'PT Serif', serif;
+}
+
+.email{
+
+	color: black;
+	margin-top: 50px;
+	padding-left: 50px;
+	float: right;
+	font-family: 'PT Serif', serif;
+}
+nav{
+	opacity: 0.8;
+	box-shadow: 0 0 10px rgba(0,0,0,0.6);
+	height: 80px;
+	background-color:#FF5432;
+	width: 100%;
+}
+nav a{
+	font-size: 20px;
+	color: #fff;
+}
+
+main p{
+	right: 20px;
+	position: absolute;
+	width: 500px;
+}
+main img{
+	width: 100%;
+	float: right;
+}
+
