@@ -92,9 +92,8 @@ footer{
 	float: left;
 	
 }
-.phback{
-	
-}
+
+
 .topblock{
 	top: 35%;
 	left: 42%;
@@ -117,7 +116,7 @@ footer{
 .name{
 	top: 18%;
 	right: 42%;
-	left: 12%;
+	left: 8%;
 	white-space: normal;
   	overflow: hidden;
   	font-size: 40px;
@@ -126,11 +125,40 @@ footer{
 }
 .nextp{
 	top: 51%;
-	left:16%;
+	left:12%;
 	right: 20%;
 	white-space: normal;
   	overflow: hidden;
   	font-size: 16px;
   	font-weight: 500;
   	color: white;
+}
+
+.aboutme2{
+	color: #FF765B;
+	padding-top: 50px;
+	margin-top: 50px;
+	text-align: center;
+}
+.ep1, .ep3{
+	color: #FF765B;
+	font-weight: bold;
+	padding-top: 20px;
+	float: right;
+	width: 300px;
+
+
+
+}
+.ep2, .ep4{
+	font-size: 17px;
+	margin-top: 150px;
+
+}
+.about{
+	background-color: #E8E7E1;
+
+}
+.ep4{
+	padding-bottom: 100px;
 }
