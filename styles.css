@@ -3,6 +3,9 @@ body{
 	height: 99999px;
 	font-family: 'PT Serif', serif;
 }
+.container{
+	
+}
 .topbar{
 	
 	font-size: 17px;
@@ -82,10 +85,52 @@ footer{
 }
 
 .photo1{
+	margin-top: 2%;
+	margin-left: 2%;
+
 	width: 50%;
 	float: left;
 	
 }
 .phback{
-	font-size: 50%;
+	
+}
+.topblock{
+	top: 35%;
+	left: 42%;
+	position: relative;
+	width: 40%;
+	height: 40%;
+	background-color: #FFC4B2;
+}
+.botblock{
+	
+	top: -2%;
+	left: 41%;
+	position: relative;
+	width: 40%;
+	height: 40%;
+	background-color: #FF765B;
+
+}
+
+.name{
+	top: 18%;
+	right: 42%;
+	left: 12%;
+	white-space: normal;
+  	overflow: hidden;
+  	font-size: 40px;
+  	font-weight: 500;
+  	color: white;
+}
+.nextp{
+	top: 51%;
+	left:16%;
+	right: 20%;
+	white-space: normal;
+  	overflow: hidden;
+  	font-size: 16px;
+  	font-weight: 500;
+  	color: white;
 }
