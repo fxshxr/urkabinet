@@ -19,7 +19,7 @@ body{
 
 	color: black;
 	margin-top: 50px;
-	padding-left: 50px;
+	margin-left: 50px;
 	float: right;
 	font-family: 'PT Serif', serif;
 }
@@ -47,4 +47,45 @@ main img{
 
 footer{
 	background-color: black;
+}
+	
+.totop{
+	bottom: 75px;
+	right: 75px;
+	width: 50px;
+	height: 50px;
+	position: fixed;
+	background-color: #FF5432;
+	opacity: 0.2;
+	border-radius: 50%;
+
+}
+.totop:hover{
+
+	transition: 0.2s;
+	opacity: 0.9;
+}
+.arrowtop{
+  border: solid white;
+  border-width: 0 3px 3px 0;
+  display: inline-block;
+  margin-left: 15px;
+  margin-top: 19px;
+  padding: 9px;
+  transform: rotate(-135deg);
+  -webkit-transform: rotate(-135deg);
+
+}
+.aboutme{
+	display: flex;
+	
+}
+
+.photo1{
+	width: 50%;
+	float: left;
+	
+}
+.phback{
+	font-size: 50%;
 }
