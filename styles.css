@@ -17,6 +17,11 @@ body{
 	float: right;
 	font-family: 'PT Serif', serif;
 }
+.phone:hover ,.email:hover{
+	color: #FF765B;
+	text-decoration: none;
+	transition: 0.1s;
+}
 
 .email{
 
@@ -36,6 +41,12 @@ nav{
 nav a{
 	font-size: 20px;
 	color: #fff;
+}
+nav a:hover{
+	text-decoration: none;
+	color: black;
+
+	transition: 0.2s;
 }
 
 main p{
@@ -161,4 +172,29 @@ footer{
 }
 .ep4{
 	padding-bottom: 100px;
+}
+.aboutcontacts{
+	margin-bottom: 30px;
+	color: #FF765B;
+	text-align: center;
+}
+.contacts{
+	text-align: center;
+	padding-bottom: 50px;
+
+}
+.contacts a{
+	color: grey;
+	padding-top: 25px;
+	font-size: 30px;
+	margin-right: 50px;
+}
+.fas{
+	margin-top: 2px;
+}
+.contacts a:hover{
+	text-decoration: none;
+	color: #FF765B;
+	transition: 0.5s;
+
 }
