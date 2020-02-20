@@ -215,3 +215,15 @@ h2{
 	margin-bottom: 10px;
 	text-align: center;
 }
+.aboutmecol{
+
+	width: 100px;
+	text-align: justify-all;
+}
+.aboutmecol p{
+	font-size: 20px;
+}
+
+.aboutme2{
+	margin-bottom: 40px;
+}
