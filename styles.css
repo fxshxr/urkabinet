@@ -227,7 +227,7 @@ h2{
 .aboutme2{
 	margin-bottom: 40px;
 }
-<<<<<<< HEAD
+
 footer{
 	opacity: 0.8;
 	box-shadow: 0 0 10px rgba(0,0,0,0.6);
@@ -251,7 +251,7 @@ footer{
 	text-decoration: none;
 	color: darkgrey;
 	transition: 0.5s;
-=======
+}
 
 @media screen and (max-width: 1370px) {
 	.name{
@@ -322,4 +322,4 @@ footer{
 		margin-top: 0px;
 	}
 }
->>>>>>> fa6483c96d09787923eb21affacff858528be19a
+
