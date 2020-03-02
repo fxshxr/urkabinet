@@ -233,7 +233,7 @@ footer{
 	opacity: 0.8;
 	box-shadow: 0 0 10px rgba(0,0,0,0.6);
 	height: 150px;
-	background-color:#435766;
+	background-color:#626366;
 	width: 100%;
 	padding-top: 30px;
 
@@ -255,11 +255,7 @@ footer{
 	text-decoration: none;
 	color: lightgrey;
 	transition: 0.5s;
-<<<<<<< HEAD
 
-=======
-}
->>>>>>> 6232865875e40e5df9f1fa7cfb38d450859d4990
 
 @media screen and (max-width: 1370px) {
 	.name{
