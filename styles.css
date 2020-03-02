@@ -247,13 +247,13 @@ footer{
 	margin-top:20px;
 }
 .contacts2 a{
-	color: darkgrey;
+	color: lightgrey;
 	font-size: 20px;
 	margin-right: 50px;
 	}
 .contacts2 a:hover{
 	text-decoration: none;
-	color: lightgrey;
+	color: darkgrey;
 	transition: 0.5s;
 
 
