@@ -64,6 +64,7 @@ footer{
 }
 	
 .totop{
+	z-index: 3;
 	bottom: 75px;
 	right: 75px;
 	width: 50px;
@@ -227,13 +228,14 @@ h2{
 .aboutme2{
 	margin-bottom: 40px;
 }
-<<<<<<< HEAD
+
 footer{
 	opacity: 0.8;
 	box-shadow: 0 0 10px rgba(0,0,0,0.6);
 	height: 150px;
-	background-color:#FF5432;
+	background-color:#435766;
 	width: 100%;
+	padding-top: 30px;
 
 }
 footer{
@@ -241,17 +243,19 @@ footer{
 	text-align: center;
 
 }
-.contacts2 a{
-	color: black;
-	padding-top: 25px;
-	font-size: 30px;
-	margin-right: 50px;
+.contacts2{
+	margin-top:20px;
 }
+.contacts2 a{
+	color: darkgrey;
+	font-size: 20px;
+	margin-right: 50px;
+	}
 .contacts2 a:hover{
 	text-decoration: none;
-	color: darkgrey;
+	color: lightgrey;
 	transition: 0.5s;
-=======
+
 
 @media screen and (max-width: 1370px) {
 	.name{
@@ -322,4 +326,4 @@ footer{
 		margin-top: 0px;
 	}
 }
->>>>>>> fa6483c96d09787923eb21affacff858528be19a
+
