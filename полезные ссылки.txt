@@ -1,1 +1,2 @@
 https://codepen.io/redfrost/pen/mzHjb - карусель с делами
+https://compnot.ru/frontend/wow-js/
