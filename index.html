@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="ru">
 <head>
+	<script src="https://www.google.com/recaptcha/api.js" async defer></script>
 	<link rel="stylesheet" href="css/animate.css">
 	<script src="js/dist/wow.min.js"></script>
 	<link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
@@ -141,29 +142,40 @@
 						<p>Семинары и мастер-классы для поставщиков помогут побеждать участвовать в любых закупках, успешно заключать и исполнять контракты и договоры, уверенно   работать в сложном мире закупок. </p>
 				    </div>
 				</div>	
-
+			<h1 class="aboutme2">Преимущества и достижения </h1>
 					<div class="benefits">
         <div class="benefits__inner">
 
             <div class="benefits__element">
-    
+    		<div class="num">
                 <p class="benefits__number"> 100 </p>
-               
+                <p class="plus wow fadeIn">+</p>
+                </div>
+               <br>
+               <div class="num">
                 <p class="benefits__title">Клиентов</p>
+                </div>
             </div>
             <div class="benefits__element">
-            
+            <div class="num">
                 <p class="benefits__number">50	
                 	
             	</p>
-         
+            	<p class="plus wow fadeIn">+</p>
+            	</div>
+         <br>
+         <div class="num">
                 <p class="benefits__title">Судебных процессов</p>
+              </div>
             </div>
             <div class="benefits__element">
-     
-                <p class="benefits__number">1000</p>
-               
+     			<div class="num">
+                <p class="benefits__number">1000</p><p class="plus wow fadeIn">+</p>
+                </div>
+               	<br>
+               	<div class="num">
                 <p class="benefits__title">Семинаров и мастер-классов </p>
+				</div>
             </div>
         </div>
     </div>
@@ -179,9 +191,44 @@
 			</div>
 		</div>
 		
-		<!--форма отправки-->
+		<div class="forms">
+			<div class="container">
+				<h1 class="aboutme2">Записаться</h1>
+				<form action="send.php" method="post">
+<input placeholder="Ваше имя" type="text" name="fio" required>
+<input placeholder="Ваш e-mail" type="email" name="email">
+<textarea name="message" cols="50" rows="10" placeholder="Напишите ваше сообщение сюда..."></textarea>
+<div class="g-recaptcha" data-sitekey="ключ сайта"></div>
+<input type="submit" value="Отправить">
+</form> 
+			</div>
+		</div>
 
-		<!--клиенты-->
+		<div class="clients">
+			<div class="container">	
+			<h1 class="aboutme2">Клиенты</h1>
+				
+				<div id="carousel">
+<a href=""><img src="images/1.png" alt="Image 1" /></a>
+<img src="images/2.png" alt="Image 1" />
+<img src="images/3.png" alt="Image 1" />
+<img src="images/4.png" alt="Image 1" />
+<img src="images/5.png" alt="Image 1" />
+<img src="images/6.png" alt="Image 1" />
+<img src="images/7.png" alt="Image 1" />
+<img src="images/8.png" alt="Image 1" />
+<img src="images/9.png" alt="Image 1" />
+<img src="images/10.png" alt="Image 1" />
+<img src="images/11.png" alt="Image 1" />
+<img src="images/12.png" alt="Image 1" />
+<img src="images/13.png" alt="Image 1" />
+<img src="images/14.png" alt="Image 1" />
+<img src="images/15.png" alt="Image 1" />
+<img src="images/16.png" alt="Image 1" />
+
+</div>
+</div>	
+		</div>
 	<footer>
 		<div class="contacts2">
 			<a href="#about">Обо мне</a>
@@ -210,5 +257,16 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
     <script src="./js/jquery.spincrement.min.js"></script>
     <script src="./js/custom.js"></script>
+
+    <script type="text/javascript" src="http://code.jquery.com/jquery-1.9.1.min.js">
+    </script>
+	<script type="text/javascript" src="js/jquery.waterwheelCarousel.js"></script>
+	<script type="text/javascript">
+  $(document).ready(function() {
+    $("#carousel").waterwheelCarousel({
+    	
+    });
+  });
+</script>
 </body>
 </html>
