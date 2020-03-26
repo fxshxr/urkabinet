@@ -1,4 +1,4 @@
-https://codepen.io/redfrost/pen/mzHjb - карусель с делами
-https://compnot.ru/frontend/wow-js/
+
 
 https://webriz.ru/25-prosteyshaya-forma-otpravki-dannyh-na-pochtu-pri-pomoschi-html-i-php.html - php форма
+https://www.youtube.com/watch?v=-yZfdyPMzCE - обработчик php формы
