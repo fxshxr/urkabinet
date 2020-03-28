@@ -1,6 +1,15 @@
 <!DOCTYPE html>
 <html lang="ru">
 <head>
+	<script>
+	window.onload = function() {
+    var $recaptcha = document.querySelector('#g-recaptcha-response');
+
+    if($recaptcha) {
+        $recaptcha.setAttribute("required", "required");
+    }
+};
+</script>
 	<script src="https://www.google.com/recaptcha/api.js" async defer></script>
 	<link rel="stylesheet" href="css/animate.css">
 	<script src="js/dist/wow.min.js"></script>
@@ -11,6 +20,8 @@
 	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
 	<link rel="stylesheet" href="styles.css">
 	<meta charset="UTF-8">
+
+	<meta name="yandex-verification" content="75529c58e7e182d8" />
 	<title>Адвокатский Кабинет Юлии Межниковой</title>
 </head>
 <body>
@@ -199,21 +210,21 @@
 				
 				<div id="carousel">
 <a href=""><img src="images/1.png" alt="Image 1" /></a>
-<img src="images/2.png" alt="Image 1" />
-<img src="images/3.png" alt="Image 1" />
-<img src="images/4.png" alt="Image 1" />
-<img src="images/5.png" alt="Image 1" />
-<img src="images/6.png" alt="Image 1" />
-<img src="images/7.png" alt="Image 1" />
-<img src="images/8.png" alt="Image 1" />
-<img src="images/9.png" alt="Image 1" />
-<img src="images/10.png" alt="Image 1" />
-<img src="images/11.png" alt="Image 1" />
-<img src="images/12.png" alt="Image 1" />
-<img src="images/13.png" alt="Image 1" />
-<img src="images/14.png" alt="Image 1" />
-<img src="images/15.png" alt="Image 1" />
-<img src="images/16.png" alt="Image 1" />
+<img src="images/2.png" alt="Image 2" />
+<img src="images/3.png" alt="Image 3" />
+<img src="images/4.png" alt="Image 4" />
+<img src="images/5.png" alt="Image 5" />
+<img src="images/6.png" alt="Image 6" />
+<img src="images/7.png" alt="Image 7" />
+<img src="images/8.png" alt="Image 8" />
+<img src="images/9.png" alt="Image 9" />
+<img src="images/10.png" alt="Image 10" />
+<img src="images/11.png" alt="Image 11" />
+<img src="images/12.png" alt="Image 12" />
+<img src="images/13.png" alt="Image 13" />
+<img src="images/14.png" alt="Image 14" />
+<img src="images/15.png" alt="Image 15" />
+<img src="images/16.png" alt="Image 16" />
 
 </div>
 </div>	
@@ -223,11 +234,14 @@
 		<div class="forms">
 			<div class="container">
 			<h1 class="aboutme2">Консультация</h1>
-				<form action="send.php" method="post">
-				<input placeholder="Ваше имя" type="text" name="fio" required>
-				<input placeholder="Ваш e-mail" type="email" name="email">
-				<textarea name="message" cols="50" rows="10" class="txtar"placeholder="Напишите ваше сообщение сюда..."></textarea>
-				<div class="g-recaptcha" data-sitekey="ключ сайта"></div>
+			
+				<form action="mail.php" method="POST">
+				<input placeholder="Ваше имя" type="text" name="user_name" required>
+				<input placeholder="Ваш e-mail" type="email" name="user_email">
+				
+
+				<textarea name="user_message" cols="50" rows="10" class="txtar"placeholder="Напишите ваше сообщение сюда..."></textarea>
+				<div class="g-recaptcha" data-sitekey="6LeizOQUAAAAADXj125v243eAwcs_sYX22FJZWXx"></div>
 				<input type="submit" class="button" value="Отправить">
 			</form> 
 			</div>

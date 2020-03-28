@@ -253,16 +253,12 @@ footer{
 .contacts2 a:hover{
 	text-decoration: none;
 	color: darkgrey;
-	transition: 0.5s;}
-
-
-
-
+	transition: 0.5s;
+}
 
 
 .benefits {
     width: 100%;
-   
 }
 
 .benefits__inner {
@@ -373,7 +369,7 @@ input{
 }
 
 /* Small Devices, Tablets */
-@media only screen and (max-width : 560px) {
+@media only screen and (max-width : 760px) {
 	.animated {
 		/*CSS transitions*/
 		-o-transition-property: none !important;
@@ -483,3 +479,12 @@ input{
 	}
 }
 
+#g-recaptcha-response {
+    display: block !important;
+    position: absolute;
+    margin: -78px 0 0 0 !important;
+    width: 302px !important;
+    height: 76px !important;
+    z-index: -999999;
+    opacity: 0;
+}
