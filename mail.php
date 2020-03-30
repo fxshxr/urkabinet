@@ -29,7 +29,7 @@ if(!$mail->send()) {
     header('location: thank-you.html');
 }
     // ваш секретный ключ
-    $secret = '6LeizOQUAAAAAKCgFWdCxg9GJoEzXIfGdth6RlHJ';
+    $secret = '--------------------';
     // однократное включение файла autoload.php (клиентская библиотека reCAPTCHA PHP)
     require_once (dirname(__FILE__).'/recaptcha/autoload.php');
     // если в массиве $_POST существует ключ g-recaptcha-response, то...
